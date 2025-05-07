@@ -17,15 +17,15 @@ const NavbarHead = () => {
   const navItems = [
     {
       name: 'Home',
-      link: '/Home',
+      link: '/EventSure/Home',
     },
     {
       name: 'Events',
-      link: '/Event',
+      link: '/EventSure/Event',
     },
     {
       name: 'Cart',
-      link: '/Cart',
+      link: '/EventSure/Cart',
     },
   ];
 
@@ -39,7 +39,7 @@ const NavbarHead = () => {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-          <NavbarButton as={Link} to="/Login" variant="primary">
+          <NavbarButton as={Link} to="/EventSure/Login" variant="primary">
             Login
           </NavbarButton>
             <NavbarButton variant="primary">Admin</NavbarButton>
