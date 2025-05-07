@@ -65,7 +65,7 @@ function App() {
     
       <Routes location={location} key={location.pathname}>
       <Route
-          path="/Home"
+          path="/EventSure/Home"
           element={
             <motion.div variants={pageVariants} initial="initial" animate="animate" exit="exit">
               <Home />
@@ -73,7 +73,7 @@ function App() {
           }
         />
         <Route
-          path="/Event"
+          path="/EventSure/Event"
           element={
             <motion.div variants={pageVariants} initial="initial" animate="animate" exit="exit">
               <Event />
@@ -81,7 +81,7 @@ function App() {
           }
         />
         <Route
-          path="/Login"
+          path="/EventSure/Login"
           element={
             <motion.div variants={pageVariants} initial="initial" animate="animate" exit="exit">
               <Login />
