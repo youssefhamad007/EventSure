@@ -89,7 +89,7 @@ function App() {
           }
         />
         <Route
-          path="/Cart"
+          path="/EventSure/Cart"
           element={
             <motion.div variants={pageVariants} initial="initial" animate="animate" exit="exit">
               <Cart />
@@ -97,7 +97,7 @@ function App() {
           }
         />
         <Route
-          path="/"
+          path="/EventSure"
           element={
             <motion.div variants={pageVariants} initial="initial" animate="animate" exit="exit">
               <Home />
