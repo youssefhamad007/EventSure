@@ -1,0 +1,10 @@
+@import "tailwindcss";
+body{
+  background-color: black;
+  
+}
+.logo{
+  scale: 2.2;
+  position: relative;
+  top: 5px;
+}
