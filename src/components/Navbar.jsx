@@ -73,7 +73,7 @@ const NavbarHead = () => {
             <div className="flex w-full flex-col gap-4">
               <NavbarButton
                 as={Link}
-                to="/Login"
+                to="/EventSure/Login"
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
                 className="w-full"
