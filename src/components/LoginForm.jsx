@@ -1,12 +1,14 @@
 import React from 'react'
 import "../layout/Login.css"
+import LoginPhoto from '../assets/Silhouette in Doorway.jpeg'
+import Gradientlogin from '../assets/image-mesh-gradient.png'
 
 const LoginForm = () => {
   return (
     <div className="parent">
-        <div className="div1"></div>
+        <div className="div1" style={{backgroundImage: `url(${LoginPhoto})`}}></div>
         <div className="div2"> 
-            <div className="form-container">
+            <div className="form-container" style={{backgroundImage: `url(${Gradientlogin})`}}>
                 <p className="title">Welcome back</p>
                 <form className="form">
                 <input type="email" className="input" placeholder="Email"/>
