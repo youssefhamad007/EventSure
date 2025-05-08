@@ -3,7 +3,21 @@
 import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useOutsideClick } from "../../hooks/use-outside-click";
-
+import Music from '../assets/Dynamic Live Concert with Pyrotechnics.jpeg'
+import Worlds from '../assets/Focused Gamers at Gaming Cafe.jpeg'
+import Art from '../assets/Modern Art Gallery.jpeg'
+import Party from '../assets/Mysterious DJ at Work.jpeg'
+import Cars from "../assets/Snow-covered Car in Wintery Forest at Night.jpeg"
+import Cooking from  "../assets/Sunlit Street Food Bazaar.jpeg"
+import Yoga from '../assets/Tranquil Yoga Session in Serene Illuminated Studio.jpeg'
+import Famiely from '../assets/Twilight Festival at the Historic Cathedral Square.jpeg'
+import Sport from '../assets/Vibrant Stadium Celebration.jpeg'
+import Artist from '../assets/Artists Workspace.jpeg'
+import MusicHigh from '../assets/High-Energy Music Concert_upscayl_2x_upscayl-standard-4x.png'
+import Diving from '../assets/Underwater Paradise and Tropical Landscape.jpeg'
+import Seminar from '../assets/Seminar Audience Scene.jpeg'
+import Pet from '../assets/Cozy Pet Store Scene.jpeg'
+import Campinig from "../assets/Dramatic Mountainous Tent Under Night Sky.jpeg"
 export function EventsCard({ onAddToCart }) {
   const [active, setActive] = useState(null);
   const id = useId();
@@ -197,7 +211,7 @@ const cards = [
     {
       description: "cozy pet",
       title: "Pet Event",
-      src: "/Cozy Pet Store Scene.jpeg",
+      src: `${Pet}`,
       ctaText: "BookNow",
       location: "Downtown Pet Center, San Francisco, CA",
       price: "$15",
@@ -214,7 +228,7 @@ const cards = [
     {
       description: "Campinig",
       title: "Cammping Event",
-      src: "/Dramatic Mountainous Tent Under Night Sky.jpeg",
+      src: `${Campinig}`,
       ctaText: "BookNow",
       location: "Ridgecrest Campgrounds, Rocky Mountain National Park, CO",
       price: "$40",
@@ -230,7 +244,7 @@ const cards = [
     {
       description: "Musical",
       title: "Music Event",
-      src: "/Dynamic Live Concert with Pyrotechnics.jpeg",
+      src: `${Music}`,
       ctaText: "BookNow",
       location: "Grand Arena, Las Vegas, NV",
       price: "$65",
@@ -246,7 +260,7 @@ const cards = [
     {
       description: "Gamming",
       title: "Worlds Event",
-      src: "/Focused Gamers at Gaming Cafe.jpeg",
+      src: `${Worlds}`,
       ctaText: "BookNow",
       location: "Silicon Valley Gaming Arena, CA",
       price: "$30",
@@ -262,7 +276,7 @@ const cards = [
     {
       description: "Musical HIgh Energy",
       title: "Music High Event",
-      src: "/High-Energy Music Concert_upscayl_2x_upscayl-standard-4x.png",
+      src: `${MusicHigh}`,
       ctaText: "BookNow",
       location: "Pulse Nightclub, Miami, FL",
       price: "$50",
@@ -278,7 +292,7 @@ const cards = [
     {
       description: "Art & Drawing",
       title: "Art Event",
-      src: "/Modern Art Gallery.jpeg",
+      src: `${Art}`,
       ctaText: "BookNow",
       location: "Loft Gallery, Brooklyn, NY",
       price: "$25",
@@ -294,7 +308,7 @@ const cards = [
     {
       description: "Artist Workspace",
       title: "Artist Workspace Event",
-      src: "/Artists Workspace.jpeg",
+      src: `${Artist}`,
       ctaText: "BookNow",
       location: "Studio 19, Downtown Los Angeles, CA",
       price: "$35",
@@ -310,7 +324,7 @@ const cards = [
     {
       description: "Party",
       title: "Party Event",
-      src: "/Mysterious DJ at Work.jpeg",
+      src: `${Party}`,
       ctaText: "BookNow",
       location: "Rooftop Terrace, Chicago, IL",
       price: "$45",
@@ -326,7 +340,7 @@ const cards = [
     {
       description: "Seminar Listening",
       title: "Seminar Event",
-      src: "/Seminar Audience Scene.jpeg",
+      src: `${Seminar}`,
       ctaText: "Booknow",
       location: "Conference Hall A, London, UK",
       price: "£20",
@@ -342,7 +356,7 @@ const cards = [
     {
       description: "Best Cars Collection",
       title: "Cars Event",
-      src: "/Snow-covered Car in Wintery Forest at Night.jpeg",
+      src: `${Cars}`,
       ctaText: "Booknow",
       location: "Auto Exposition Center, Stuttgart, Germany",
       price: "€30",
@@ -358,7 +372,7 @@ const cards = [
     {
       description: "Cooking Comptation",
       title: "Cooking Event",
-      src: "/Sunlit Street Food Bazaar.jpeg",
+      src: `${Cooking}`,
       ctaText: "Booknow",
       location: "Culinary Plaza, Barcelona, Spain",
       price: "€25",
@@ -373,7 +387,7 @@ const cards = [
     {
       description: "Yoga Couching Session",
       title: "Yoga Event",
-      src: "/Tranquil Yoga Session in Serene Illuminated Studio.jpeg",
+      src: `${Yoga}`,
       ctaText: "Booknow",
       location: "Zen Studio, Cairo, Egypt",
       price: "EGP 200",
@@ -389,7 +403,7 @@ const cards = [
     {
       description: "Famiely Journey",
       title: "Famiely Event",
-      src: "/Twilight Festival at the Historic Cathedral Square.jpeg",
+      src: `${Famiely}`,
       ctaText: "Booknow",
       location: "Cathedral Square, Prague, Czech Republic",
       price: "CZK 350",
@@ -405,7 +419,7 @@ const cards = [
     {
       description: "Under Water Diving",
       title: "Diving Event",
-      src: "/Underwater Paradise and Tropical Landscape.jpeg",
+      src: `${Diving}`,
       ctaText: "Booknow",
       location: "Coral Reef Dive Center, Great Barrier Reef, Australia",
       price: "AUD 80",
@@ -421,7 +435,7 @@ const cards = [
     {
       description: "Champions Finals",
       title: "Sport Event",
-      src: "/Vibrant Stadium Celebration.jpeg",
+      src: `${Sport}`,
       ctaText: "Booknow",
       location: "National Stadium, Tokyo, Japan",
       price: "¥5000",
