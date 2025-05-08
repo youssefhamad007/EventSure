@@ -1,7 +1,21 @@
 "use client";
 import React from "react";
 import { HeroParallax } from "./ui/hero-parallax";
-
+import Music from '../assets/Dynamic Live Concert with Pyrotechnics.jpeg'
+import Worlds from '../assets/Focused Gamers at Gaming Cafe.jpeg'
+import Art from '../assets/Modern Art Gallery.jpeg'
+import Party from '../assets/Mysterious DJ at Work.jpeg'
+import Cars from "../assets/Snow-covered Car in Wintery Forest at Night.jpeg"
+import Cooking from  "../assets/Sunlit Street Food Bazaar.jpeg"
+import Yoga from '../assets/Tranquil Yoga Session in Serene Illuminated Studio.jpeg'
+import Famiely from '../assets/Twilight Festival at the Historic Cathedral Square.jpeg'
+import Sport from '../assets/Vibrant Stadium Celebration.jpeg'
+import Artist from '../assets/Artists Workspace.jpeg'
+import MusicHigh from '../assets/High-Energy Music Concert_upscayl_2x_upscayl-standard-4x.png'
+import Diving from '../assets/Underwater Paradise and Tropical Landscape.jpeg'
+import Seminar from '../assets/Seminar Audience Scene.jpeg'
+import Pet from '../assets/Cozy Pet Store Scene.jpeg'
+import Campinig from "../assets/Dramatic Mountainous Tent Under Night Sky.jpeg"
 export function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
@@ -9,7 +23,7 @@ export function HeroParallaxDemo() {
 export const products = [
   {
     title: "Music Event",
-    thumbnail: "/public/Dynamic Live Concert with Pyrotechnics.jpeg",
+    thumbnail: `${Music}`,
     description: <p>
     Get ready for a night of unforgettable rhythm and melodies at our Music Event! This live concert brings together some
     of the most talented performers across genres, from soulful ballads to electrifying rock anthems. Expect a visually
@@ -22,7 +36,7 @@ export const products = [
   },
   {
     title: "Worlds Event",
-    thumbnail: "/public/Focused Gamers at Gaming Cafe.jpeg",
+    thumbnail: `${Worlds}`,
     description: <p>
     Dive into the heart of esports and digital entertainment at the Worlds Gaming Event. Compete in high-stakes
     tournaments, witness top-tier gameplay, and explore the latest in VR and gaming tech. Meet streamers, developers,
@@ -35,7 +49,7 @@ export const products = [
   },
   {
     title: "Art Event",
-    thumbnail: "/public/Modern Art Gallery.jpeg",
+    thumbnail: `${Art}`,
     description: <p>
     Step into a world of creativity and inspiration at our Art Event, showcasing works from emerging and established artists.
     Explore captivating exhibits of modern paintings, sculpture, digital art, and more. Participate in live art demonstrations,
@@ -47,7 +61,7 @@ export const products = [
   },
   {
     title: "Party Event",
-    thumbnail: "/public/Mysterious DJ at Work.jpeg",
+    thumbnail: `${Party}`,
     description: <p>
     The ultimate night out awaits you at our Party Event! Featuring an elite lineup of DJs, immersive light shows,
     and themed dance floors, this party is a haven for nightlife lovers. Dress to impress, bring your energy, and
@@ -59,7 +73,7 @@ export const products = [
   },
   {
     title: "Cars Event",
-    thumbnail: "/public/Snow-covered Car in Wintery Forest at Night.jpeg",
+    thumbnail: `${Cars}`,
     description: <p>
     Feast your eyes on the ultimate showcase of engineering and design at the Cars Event. Featuring a curated
     collection of classic, luxury, and concept vehicles, this event is a paradise for auto enthusiasts. Learn
@@ -71,7 +85,7 @@ export const products = [
   },
   {
     title: "Cooking Event",
-    thumbnail: "/public/Sunlit Street Food Bazaar.jpeg",
+    thumbnail: `${Cooking}`,
     description: <p>
     Indulge your taste buds and witness culinary magic at the Cooking Event. Top chefs and aspiring cooks go head-to-head
     in thrilling cooking competitions across cuisines. Enjoy live tastings, cooking demonstrations, food styling workshops,
@@ -82,7 +96,7 @@ export const products = [
   },
   {
     title: "Yoga Event",
-    thumbnail: "/public/Tranquil Yoga Session in Serene Illuminated Studio.jpeg",
+    thumbnail: `${Yoga}`,
     description: <p>
     Reconnect with your body, mind, and soul at the Yoga Event. Set in a peaceful studio space,
     this event features guided yoga sessions, mindfulness workshops, breathwork techniques, and holistic wellness discussions.
@@ -94,7 +108,7 @@ export const products = [
   },
   {
     title: "Famiely Event",
-    thumbnail: "/public/Twilight Festival at the Historic Cathedral Square.jpeg",
+    thumbnail: `${Famiely}`,
     description: <p>
     Make cherished memories with your loved ones at our Family Event! Enjoy a day packed with fun activities for all
     ages including games, storytelling, music, food stalls, and themed performances. With a warm and welcoming atmosphere, 
@@ -106,7 +120,7 @@ export const products = [
   },
   {
     title: "Sport Event",
-    thumbnail: "/public/Vibrant Stadium Celebration.jpeg",
+    thumbnail: `${Sport}`,
     description: <p>
     Plunge into a world of aquatic wonder at the Diving Event. Explore vibrant coral reefs, swim with marine life,
     and experience the thrill of underwater exploration through guided dives and snorkeling adventures. Ideal for certified
@@ -118,7 +132,7 @@ export const products = [
   },
   {
     title: "Artist Workspace Event",
-    thumbnail: "/public/Artists Workspace.jpeg",
+    thumbnail: `${Artist}`,
     description: <p>
     Discover the process behind the masterpiece at the Artist Workspace Event. Gain exclusive access to working
     studios and watch creatives bring their visions to life. From sketching and painting to sculpting and digital
@@ -130,7 +144,7 @@ export const products = [
   },
   {
     title: "Music High Event",
-    thumbnail: "/public/High-Energy Music Concert_upscayl_2x_upscayl-standard-4x.png",
+    thumbnail: `${MusicHigh}`,
     description: <p>
     Prepare to feel the bass and move with the beat at our Music High Event—an electrifying concert packed
     with nonstop energy. Featuring world-renowned DJs, live performances, synchronized light shows, and heart-thumping
@@ -142,7 +156,7 @@ export const products = [
   },
   {
     title: "Seminar Event",
-    thumbnail: "/public/Seminar Audience Scene.jpeg",
+    thumbnail: `${Seminar}`,
     description: <p>
     Engage your intellect and broaden your horizons at the Seminar Event, featuring distinguished
     speakers from diverse fields. This event offers a rich lineup of lectures, panel discussions,
@@ -154,7 +168,7 @@ export const products = [
   },
   {
     title: "Diving Event",
-    thumbnail: "/public/Underwater Paradise and Tropical Landscape.jpeg",
+    thumbnail: `${Diving}`,
     description: <p>
     Plunge into a world of aquatic wonder at the Diving Event. Explore vibrant coral reefs, swim with marine life,
     and experience the thrill of underwater exploration through guided dives and snorkeling adventures. Ideal for certified
@@ -166,7 +180,7 @@ export const products = [
   },
   {
     title: "Pet Event",
-    thumbnail: "/public/Cozy Pet Store Scene.jpeg",
+    thumbnail: `${Pet}`,
     description: <p>
     Experience the joy of bonding with adorable furry companions at our cozy Pet Event. Whether you're a lifelong pet lover
     or considering adopting for the first time, this event offers hands-on interaction with cats, dogs, and small animals
@@ -179,7 +193,7 @@ export const products = [
   },
   {
     title: "Campinig",
-    thumbnail: "/public/Dramatic Mountainous Tent Under Night Sky.jpeg",
+    thumbnail: `${Campinig}`,
     description:<p>
     Embark on a thrilling outdoor adventure at our Camping Event nestled in the heart of the wilderness. Set against a 
     backdrop of starry skies and rugged mountains, this event is perfect for both beginners and seasoned campers. Join
